@@ -68,3 +68,19 @@ Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.corext.cod
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
 	at java.lang.ClassLoader.loadClass(Unknown Source)
 	... 30 more
+
+!ENTRY org.testng.eclipse 1 0 2019-04-05 14:42:30.343
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\481\0\.cp\lib\testng-remote.jar M:\testNG\TestNGTutorial\bin M:\testNG\Additional_JAR\jcommander-1.69.jar M:\testNG\Additional_JAR\testng-6.11.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50095 -protocol json -d M:\testNG\TestNGTutorial\test-output C:\Users\aman_PC\AppData\Local\Temp\testng-eclipse--26838107\testng-customsuite.xml
+java -ea -classpath C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\481\0\.cp\lib\testng-remote.jar:M:\testNG\TestNGTutorial\bin:M:\testNG\Additional_JAR\jcommander-1.69.jar:M:\testNG\Additional_JAR\testng-6.11.jar org.testng.remote.RemoteTestNG -serport 50095 -protocol json -d M:\testNG\TestNGTutorial\test-output C:\Users\aman_PC\AppData\Local\Temp\testng-eclipse--26838107\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-04-05 14:43:05.610
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\481\0\.cp\lib\testng-remote.jar M:\testNG\TestNGTutorial\bin M:\testNG\Additional_JAR\jcommander-1.69.jar M:\testNG\Additional_JAR\testng-6.11.jar
+  VMArgs:    -ea -javaagent:C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\448\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=50098
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50099 -protocol json -d M:\testNG\TestNGTutorial\test-output C:\Users\aman_PC\AppData\Local\Temp\testng-eclipse--1154475837\testng-customsuite.xml
+java -ea -javaagent:C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\448\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=50098 -classpath C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\481\0\.cp\lib\testng-remote.jar:M:\testNG\TestNGTutorial\bin:M:\testNG\Additional_JAR\jcommander-1.69.jar:M:\testNG\Additional_JAR\testng-6.11.jar org.testng.remote.RemoteTestNG -serport 50099 -protocol json -d M:\testNG\TestNGTutorial\test-output C:\Users\aman_PC\AppData\Local\Temp\testng-eclipse--1154475837\testng-customsuite.xml
