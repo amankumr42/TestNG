@@ -1,45 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="111" started-at="2019-04-05T19:25:58Z" finished-at="2019-04-05T19:25:58Z">
+  <suite name="Regression TestSuit" duration-ms="181" started-at="2019-04-05T19:59:13Z" finished-at="2019-04-05T19:59:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="111" started-at="2019-04-05T19:25:58Z" finished-at="2019-04-05T19:25:58Z">
-      <class name="testClasses.TestNG_BeforeClassAnnotation">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testClasses.TestNG_BeforeClassAnnotation@5afa04c]" name="setup" is-config="true" duration-ms="18" started-at="2019-04-06T00:55:58Z" finished-at="2019-04-06T00:55:58Z">
+    <test name="Application Test" duration-ms="181" started-at="2019-04-05T19:59:13Z" finished-at="2019-04-05T19:59:13Z">
+      <class name="testClasses.TestNG_TestClass2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testClasses.TestNG_TestClass2@7921b0a2]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testClasses.TestNG_BeforeClassAnnotation@5afa04c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-06T00:55:58Z" finished-at="2019-04-06T00:55:58Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testClasses.TestNG_TestClass2@7921b0a2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethod1()[pri:0, instance:testClasses.TestNG_BeforeClassAnnotation@5afa04c]" name="testMethod1" duration-ms="14" started-at="2019-04-06T00:55:58Z" finished-at="2019-04-06T00:55:58Z">
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:testClasses.TestNG_TestClass2@7921b0a2]" name="testMethod1" duration-ms="2" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testClasses.TestNG_BeforeClassAnnotation@5afa04c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-06T00:55:58Z" finished-at="2019-04-06T00:55:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testClasses.TestNG_TestClass2@7921b0a2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testClasses.TestNG_BeforeClassAnnotation@5afa04c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-06T00:55:58Z" finished-at="2019-04-06T00:55:58Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testClasses.TestNG_TestClass2@7921b0a2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethod2()[pri:0, instance:testClasses.TestNG_BeforeClassAnnotation@5afa04c]" name="testMethod2" duration-ms="11" started-at="2019-04-06T00:55:58Z" finished-at="2019-04-06T00:55:58Z">
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:testClasses.TestNG_TestClass2@7921b0a2]" name="testMethod2" duration-ms="3" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testClasses.TestNG_BeforeClassAnnotation@5afa04c]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-04-06T00:55:58Z" finished-at="2019-04-06T00:55:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testClasses.TestNG_TestClass2@7921b0a2]" name="afterMethod" is-config="true" duration-ms="3" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:testClasses.TestNG_BeforeClassAnnotation@5afa04c]" name="cleanup" is-config="true" duration-ms="2" started-at="2019-04-06T00:55:58Z" finished-at="2019-04-06T00:55:58Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testClasses.TestNG_TestClass2@7921b0a2]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cleanup -->
-      </class> <!-- testClasses.TestNG_BeforeClassAnnotation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- testClasses.TestNG_TestClass2 -->
+      <class name="testClasses.TestNG_TestClass1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testClasses.TestNG_TestClass1@6a024a67]" name="beforeClass" is-config="true" duration-ms="20" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testClasses.TestNG_TestClass1@6a024a67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:testClasses.TestNG_TestClass1@6a024a67]" name="testMethod1" duration-ms="12" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testClasses.TestNG_TestClass1@6a024a67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testClasses.TestNG_TestClass1@6a024a67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:testClasses.TestNG_TestClass1@6a024a67]" name="testMethod2" duration-ms="6" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testClasses.TestNG_TestClass1@6a024a67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testClasses.TestNG_TestClass1@6a024a67]" name="afterClass" is-config="true" duration-ms="3" started-at="2019-04-06T01:29:13Z" finished-at="2019-04-06T01:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testClasses.TestNG_TestClass1 -->
+    </test> <!-- Application Test -->
+  </suite> <!-- Regression TestSuit -->
 </testng-results>
