@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="278" started-at="2019-04-05T09:13:10Z" finished-at="2019-04-05T09:13:10Z">
+  <suite name="Default suite" duration-ms="100" started-at="2019-04-05T11:34:49Z" finished-at="2019-04-05T11:34:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="278" started-at="2019-04-05T09:13:10Z" finished-at="2019-04-05T09:13:10Z">
-      <class name="testClasses.TestAnnotation">
-        <test-method status="PASS" signature="testMethod1()[pri:0, instance:testClasses.TestAnnotation@2b9f74d0]" name="testMethod1" duration-ms="49" started-at="2019-04-05T14:43:10Z" finished-at="2019-04-05T14:43:10Z">
+    <test name="Default test" duration-ms="100" started-at="2019-04-05T11:34:49Z" finished-at="2019-04-05T11:34:49Z">
+      <class name="testClasses.TestNG_Asserts">
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:testClasses.TestNG_Asserts@61a485d2]" name="testMethod1" duration-ms="29" started-at="2019-04-05T17:04:49Z" finished-at="2019-04-05T17:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="testMethod2()[pri:0, instance:testClasses.TestAnnotation@2b9f74d0]" name="testMethod2" duration-ms="11" started-at="2019-04-05T14:43:10Z" finished-at="2019-04-05T14:43:10Z">
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:testClasses.TestNG_Asserts@61a485d2]" name="testMethod2" duration-ms="5" started-at="2019-04-05T17:04:49Z" finished-at="2019-04-05T17:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
-        <test-method status="PASS" signature="testMethod3()[pri:0, instance:testClasses.TestAnnotation@2b9f74d0]" name="testMethod3" duration-ms="10" started-at="2019-04-05T14:43:10Z" finished-at="2019-04-05T14:43:10Z">
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:testClasses.TestNG_Asserts@61a485d2]" name="testMethod3" duration-ms="3" started-at="2019-04-05T17:04:49Z" finished-at="2019-04-05T17:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod3 -->
-      </class> <!-- testClasses.TestAnnotation -->
+      </class> <!-- testClasses.TestNG_Asserts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
