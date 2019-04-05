@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testClasses.TestNG_Asserts">
+      <class name="testClasses.TestNG_SoftAsserts">
         <methods>
-          <include name="testMethod2"/>
+          <include name="testSum"/>
         </methods>
-      </class> <!-- testClasses.TestNG_Asserts -->
+      </class> <!-- testClasses.TestNG_SoftAsserts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
