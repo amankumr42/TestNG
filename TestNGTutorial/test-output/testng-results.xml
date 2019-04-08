@@ -1,39 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="1" failed="1" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression TestSuit" duration-ms="75" started-at="2019-04-08T17:36:45Z" finished-at="2019-04-08T17:36:45Z">
+  <suite name="Default suite" duration-ms="118" started-at="2019-04-08T18:01:36Z" finished-at="2019-04-08T18:01:36Z">
     <groups>
-      <group name="cars">
-        <method signature="TestNG_Grouping.testAudi6()[pri:0, instance:testClasses.TestNG_Grouping@4de8b406]" name="testAudi6" class="testClasses.TestNG_Grouping"/>
-        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:testClasses.TestNG_Grouping@4de8b406]" name="testBMWX6" class="testClasses.TestNG_Grouping"/>
-      </group> <!-- cars -->
-      <group name="suv">
-        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:testClasses.TestNG_Grouping@4de8b406]" name="testBMWX6" class="testClasses.TestNG_Grouping"/>
-      </group> <!-- suv -->
-      <group name="sedan">
-        <method signature="TestNG_Grouping.testAudi6()[pri:0, instance:testClasses.TestNG_Grouping@4de8b406]" name="testAudi6" class="testClasses.TestNG_Grouping"/>
-      </group> <!-- sedan -->
     </groups>
-    <test name="Groups demo Test" duration-ms="75" started-at="2019-04-08T17:36:45Z" finished-at="2019-04-08T17:36:45Z">
-      <class name="testClasses.TestNG_Grouping">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testClasses.TestNG_Grouping@4de8b406]" name="beforeClass" is-config="true" duration-ms="15" started-at="2019-04-08T23:06:45Z" finished-at="2019-04-08T23:06:45Z">
+    <test name="Default test" duration-ms="118" started-at="2019-04-08T18:01:36Z" finished-at="2019-04-08T18:01:36Z">
+      <class name="testClasses.TestNG_DependentTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testClasses.TestNG_DependentTests@2344fc66]" name="setup" is-config="true" duration-ms="10" started-at="2019-04-08T23:31:36Z" finished-at="2019-04-08T23:31:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testAudi6()[pri:0, instance:testClasses.TestNG_Grouping@4de8b406]" name="testAudi6" duration-ms="16" started-at="2019-04-08T23:06:45Z" finished-at="2019-04-08T23:06:45Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:testClasses.TestNG_DependentTests@2344fc66]" name="testMethod2" duration-ms="0" started-at="2019-04-08T23:31:36Z" finished-at="2019-04-08T23:31:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAudi6 -->
-        <test-method status="PASS" signature="testBMWX6()[pri:0, instance:testClasses.TestNG_Grouping@4de8b406]" name="testBMWX6" duration-ms="0" started-at="2019-04-08T23:06:45Z" finished-at="2019-04-08T23:06:45Z">
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="testMethod4()[pri:0, instance:testClasses.TestNG_DependentTests@2344fc66]" name="testMethod4" duration-ms="0" started-at="2019-04-08T23:31:36Z" finished-at="2019-04-08T23:31:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBMWX6 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testClasses.TestNG_Grouping@4de8b406]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-04-08T23:06:45Z" finished-at="2019-04-08T23:06:45Z">
+        </test-method> <!-- testMethod4 -->
+        <test-method status="FAIL" signature="testMethod1()[pri:0, instance:testClasses.TestNG_DependentTests@2344fc66]" name="testMethod1" duration-ms="16" started-at="2019-04-08T23:31:36Z" depends-on-methods="testClasses.TestNG_DependentTests.testMethod2" finished-at="2019-04-08T23:31:36Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testClasses.TestNG_DependentTests.testMethod1(TestNG_DependentTests.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- testClasses.TestNG_Grouping -->
-    </test> <!-- Groups demo Test -->
-  </suite> <!-- Regression TestSuit -->
+        </test-method> <!-- testMethod1 -->
+        <test-method status="SKIP" signature="testMethod3()[pri:0, instance:testClasses.TestNG_DependentTests@2344fc66]" name="testMethod3" duration-ms="0" started-at="2019-04-08T23:31:36Z" depends-on-methods="testClasses.TestNG_DependentTests.testMethod1" finished-at="2019-04-08T23:31:36Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNG_DependentTests.testMethod3()[pri:0, instance:testClasses.TestNG_DependentTests@2344fc66] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNG_DependentTests.testMethod3()[pri:0, instance:testClasses.TestNG_DependentTests@2344fc66] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testClasses.TestNG_DependentTests@2344fc66]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-04-08T23:31:36Z" finished-at="2019-04-08T23:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testClasses.TestNG_DependentTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
