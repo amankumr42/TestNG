@@ -2,13 +2,21 @@
 <suite name="Regression TestSuit">
 	<test name="Groups demo Test">
 		<groups>
-			<run>
-				<include name="Bike"></include>		
-			</run>
+			<define name="all">
+			<include name="Bike"></include>
+			<include name="suv"></include>
+			<include name="sedan"></include>
+		</define>
+			<define name="nobikes">
+			<include name="suv"></include>
+			<include name="sedan"></include>
+		</define>		
+		<run>
+			<include name = "nobikes"></include>
+		</run>
 		</groups>
 		<classes>
 			<class name="testClasses.TestNG_Grouping"></class>
-			
 		</classes>
 	</test>
 </suite>
