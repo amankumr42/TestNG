@@ -236,3 +236,11 @@ java -ea -classpath C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 55479 -protocol json -d M:\testNG\TestNGTutorial\test-output C:\Users\aman_PC\AppData\Local\Temp\testng-eclipse-980470660\testng-customsuite.xml
 java -ea -classpath C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\481\0\.cp\lib\testng-remote.jar:M:\testNG\TestNGTutorial\bin:M:\testNG\Additional_JAR\jcommander-1.69.jar:M:\testNG\Additional_JAR\testng-6.11.jar org.testng.remote.RemoteTestNG -serport 55479 -protocol json -d M:\testNG\TestNGTutorial\test-output C:\Users\aman_PC\AppData\Local\Temp\testng-eclipse-980470660\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-04-08 23:44:52.292
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\481\0\.cp\lib\testng-remote.jar M:\testNG\TestNGTutorial\bin M:\testNG\Additional_JAR\jcommander-1.69.jar M:\testNG\Additional_JAR\testng-6.11.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55642 -protocol json -d M:\testNG\TestNGTutorial\test-output C:\Users\aman_PC\AppData\Local\Temp\testng-eclipse--1836554638\testng-customsuite.xml
+java -ea -classpath C:\Users\aman_PC\eclipse\java-2018-12\eclipse\configuration\org.eclipse.osgi\481\0\.cp\lib\testng-remote.jar:M:\testNG\TestNGTutorial\bin:M:\testNG\Additional_JAR\jcommander-1.69.jar:M:\testNG\Additional_JAR\testng-6.11.jar org.testng.remote.RemoteTestNG -serport 55642 -protocol json -d M:\testNG\TestNGTutorial\test-output C:\Users\aman_PC\AppData\Local\Temp\testng-eclipse--1836554638\testng-customsuite.xml

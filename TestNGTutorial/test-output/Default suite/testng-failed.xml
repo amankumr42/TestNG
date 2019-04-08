@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testClasses.TestNG_DependentTests">
+      <class name="testClasses.TestNG_EnableTimeOut">
         <methods>
-          <include name="setup"/>
-          <include name="testMethod3"/>
-          <include name="testMethod1"/>
           <include name="testMethod2"/>
-          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="CleanUp"/>
         </methods>
-      </class> <!-- testClasses.TestNG_DependentTests -->
+      </class> <!-- testClasses.TestNG_EnableTimeOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
