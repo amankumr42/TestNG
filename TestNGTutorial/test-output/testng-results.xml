@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="111" started-at="2019-04-09T18:58:38Z" finished-at="2019-04-09T18:58:38Z">
+  <suite name="Default suite" duration-ms="103" started-at="2019-04-09T19:06:47Z" finished-at="2019-04-09T19:06:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="111" started-at="2019-04-09T18:58:38Z" finished-at="2019-04-09T18:58:38Z">
+    <test name="Default test" duration-ms="103" started-at="2019-04-09T19:06:47Z" finished-at="2019-04-09T19:06:47Z">
       <class name="testClasses.TestNG_DataProviders">
-        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@6276ae34]" name="testMethod1" duration-ms="10" started-at="2019-04-10T00:28:38Z" data-provider="inputs" finished-at="2019-04-10T00:28:38Z">
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@39fb3ab6]" name="testMethod1" duration-ms="20" started-at="2019-04-10T00:36:47Z" data-provider="inputs" finished-at="2019-04-10T00:36:47Z">
           <params>
             <param index="0">
               <value>
@@ -23,23 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@6276ae34]" name="testMethod1" duration-ms="0" started-at="2019-04-10T00:28:38Z" data-provider="inputs" finished-at="2019-04-10T00:28:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[audi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@6276ae34]" name="testMethod1" duration-ms="0" started-at="2019-04-10T00:28:38Z" data-provider="inputs" finished-at="2019-04-10T00:28:38Z">
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@39fb3ab6]" name="testMethod1" duration-ms="0" started-at="2019-04-10T00:36:47Z" data-provider="inputs" finished-at="2019-04-10T00:36:47Z">
           <params>
             <param index="0">
               <value>
@@ -49,6 +33,22 @@
             <param index="1">
               <value>
                 <![CDATA[c300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@39fb3ab6]" name="testMethod1" duration-ms="0" started-at="2019-04-10T00:36:47Z" data-provider="inputs" finished-at="2019-04-10T00:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[audi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a6]]>
               </value>
             </param>
           </params>
